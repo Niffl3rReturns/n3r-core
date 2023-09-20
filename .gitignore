@@ -40,3 +40,6 @@ Networks.md
 
 # Docs
 docs
+
+.npmrc
+yarn-error.log

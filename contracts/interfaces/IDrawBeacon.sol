@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.6;
 
-import "@pooltogether/pooltogether-rng-contracts/contracts/RNGInterface.sol";
+import "@niffl3rreturns/n3r-rng-contracts/contracts/RNGInterface.sol";
 import "./IDrawBuffer.sol";
 
 /** @title  IDrawBeacon

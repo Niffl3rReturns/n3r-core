@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.6;
 
-import "@pooltogether/owner-manager-contracts/contracts/Manageable.sol";
+import "@niffl3rreturns/owner-manager-contracts/contracts/Manageable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 

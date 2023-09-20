@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.6;
 
-import "@pooltogether/owner-manager-contracts/contracts/Ownable.sol";
+import "@niffl3rreturns/owner-manager-contracts/contracts/Ownable.sol";
 
 import "../interfaces/IPrizeSplit.sol";
 

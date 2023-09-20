@@ -1,7 +1,7 @@
 {
-  "name": "@pooltogether/v4-core",
-  "version": "1.3.1",
-  "description": "PoolTogether V4 Core Smart Contracts",
+  "name": "@niffl3rreturns/v4-core",
+  "version": "1.0.0",
+  "description": "Niffl3rReturns Core Smart Contracts",
   "main": "index.js",
   "license": "GPL-3.0",
   "scripts": {
@@ -24,15 +24,14 @@
     "run-fork": "yarn impersonate-accounts && yarn distribute-ether && yarn create-prize-pool",
     "test": "HIDE_DEPLOY_LOG=true hardhat test",
     "gas": "REPORT_GAS=true HIDE_DEPLOY_LOG=true hardhat test",
-    "parallel-test": "mocha --require hardhat/register --recursive --parallel --exit --extension ts",
-    "prepack": "yarn compile"
+    "parallel-test": "mocha --require hardhat/register --recursive --parallel --exit --extension ts"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "4.3.1",
+    "@niffl3rreturns/n3r-rng-contracts": "^1.0.0",
+    "@niffl3rreturns/n3r-yield-source-interface": "^1.0.2",
+    "@niffl3rreturns/owner-manager-contracts": "^1.0.0",
+    "@openzeppelin/contracts": "4.6.0",
     "@pooltogether/fixed-point": "1.0.0",
-    "@pooltogether/owner-manager-contracts": "1.1.0",
-    "@pooltogether/pooltogether-rng-contracts": "1.5.2",
-    "@pooltogether/yield-source-interface": "1.4.0",
     "deploy-eip-1820": "1.0.0"
   },
   "devDependencies": {

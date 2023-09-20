@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.6;
 
-import "@pooltogether/yield-source-interface/contracts/IYieldSource.sol";
+import "@niffl3rreturns/n3r-yield-source-interface/contracts/IYieldSource.sol";
 
 interface YieldSourceStub is IYieldSource {
     function canAwardExternal(address _externalToken) external view returns (bool);

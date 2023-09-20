@@ -68,13 +68,13 @@ const config: HardhatUserConfig = {
     external: {
         contracts: [
             {
-                artifacts: 'node_modules/@pooltogether/pooltogether-rng-contracts/artifacts',
+                artifacts: 'node_modules/@niffl3rreturns/n3r-rng-contracts/artifacts',
             },
         ],
     },
     dependencyCompiler: {
         paths: [
-            '@pooltogether/yield-source-interface/contracts/test/MockYieldSource.sol',
+            '@niffl3rreturns/n3r-yield-source-interface/contracts/test/MockYieldSource.sol',
         ],
     },
 };
